@@ -1,0 +1,37 @@
+body {
+    background: -webkit-linear-gradient(-8deg, white, rgb(0, 60, 100));
+}/*背景顏色*/
+#font1 {
+    font-family: serif;
+    font-style: oblique;
+}/*字體和斜字*/
+#font2 {
+    font-family: monospace;
+    font-style: bold;
+    font-size: 24px;/*字體大小*/
+} 
+::selection {
+    background-color: red;/*背景顏色*/
+    color: white;/*字體顏色*/
+}/*反白特效*/
+::marker {
+    color: crimson;/*顏色*/
+    font-size: 20px;
+}/*table欄位開頭*/
+img {
+    height: 250px;
+    width: 200px;
+}/*統一圖片規格*/
+table {
+    border-color: goldenrod;
+}/*table邊界顏色*/
+a:link {
+    text-decoration: none;
+    color: black;
+}/*未點連結*/
+a:hover {
+    color: gold;
+}/*滑鼠在連結上*/
+a:active {
+    color: green;
+}/*按住連結*/
